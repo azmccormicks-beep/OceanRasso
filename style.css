@@ -35,11 +35,10 @@ header{
   
 
 }
-.intro__desc{
+.intro__desc, .about__para{
   display: flex;
   flex-direction: column;
   width: 60%;
-  
   
 }
 .ocean__star{
@@ -129,26 +128,51 @@ h1 {
   font-style: italic;
   }
 h2 {
+  display: flex;
   justify-content: center;
-  background: linear-gradient(blue, skyblue);
+  
   text-align: center;
   align-items: center;
   padding: 16px 8px;
 }
+.about__title{
+ 
+  text-align: center;
+  
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about__me{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-direction:space-between;
+  padding: 40px;
+  background-color:  white;
+}
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .carousel-container{
-  width: 80%;
+  width: 100%;
   max-width: 800px;
-  margin: 40px;
-  overflow: hidden;
+  margin: 24px;
   position: relative;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  }
+  justify-content: center;
+}
+  
+  
+ 
 .carousel__slide{
   display: none;
   opacity: 0;
   transition: opacity 0.8 ease;
-  
 }
 .carousel__slide.active{
   display: block;
@@ -156,9 +180,11 @@ h2 {
 }
 .carousel__slide img{
   width: 100%;
+  max-height: 480px;
   border-radius: 12px;
   display: block;
 }
+
 .carousel__btn{
   position: absolute;
   top: 50%;
