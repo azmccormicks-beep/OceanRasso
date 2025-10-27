@@ -273,11 +273,14 @@ h1 {
     margin-top: 16px;
 }
 .eagle img{
-  width: 100%;
+  width: 80%;
   max-height: 400px;
   border-radius: 12px;
   display: block;
   margin-top: 48px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
 
 
