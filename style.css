@@ -321,3 +321,24 @@ address{
   margin-bottom: 48px;
   text-align: center;
 }
+@media (max-width: 600px){
+.stack{
+  justify-content: center;
+  flex-direction: column;
+}
+li{
+  margin-bottom: 16px;
+}
+.logo2{
+  display: none;
+}
+.introduction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro__desc{
+  text-align: center;
+  justify-content: center;
+}
+}
