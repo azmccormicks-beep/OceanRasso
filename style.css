@@ -303,6 +303,9 @@ h1 {
 .fa-brands.fa-facebook{
   color: rgb(0, 136, 255);
 }
+.fa-brands.fa-youtube{
+  color: red;
+}
 .in__touch{
   margin-top: 24px;
   color: crimson;
@@ -311,6 +314,7 @@ h1 {
 }
 .social__links{
   text-align: center;
+  font-size: 48px;
 }
 .copyright{
   margin-top: 24px;
