@@ -12,13 +12,16 @@ html {
 header {
   display: flex;
   justify-content: space-evenly;
-  background-color: whitesmoke;
+}
+.header{
+  background: linear-gradient(to right, rgb(43, 21, 21), rgb(178, 34, 34));
 }
 .logo {
   height: 200px;
   width: auto;
   align-items: center;
   justify-content: center;
+  width: 400px;
 }
 
 .introduction {
@@ -65,7 +68,7 @@ nav {
   align-items: center;
 }
 .btn {
-  background: linear-gradient(to right, rgb(209, 63, 63), rgb(68, 68, 208));
+  background: linear-gradient(to right, rgb(43, 21, 21), rgb(178, 34, 34));
   font-size: 16px;
   text-align: center;
   border: 4px;
@@ -127,10 +130,13 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, green, blue);
+  background: linear-gradient(to right, rgb(43, 21, 21), rgb(151, 39, 39));
   text-align: center;
   align-items: center;
   padding: 16px 8px;
+  color: rgb(222, 209, 157);
+
+  ;
 }
 .about__title {
   text-align: center;
@@ -152,6 +158,9 @@ h1 {
  display: flex;
  align-items: center;
  justify-content: center;
+ height: auto;
+ height: 350px;
+ width: auto;
 
 }
 .carousel {
